@@ -1,0 +1,21 @@
+.navbar {
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 10px 0px;
+  z-index: 1000;
+  height: 50px;
+  transition: 0.2s;
+}
+.active-navbar {
+  background-color: black;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.356);
+}
+.logo img {
+  position: relative;
+  left: 10px;
+  filter: brightness(2);
+
+  width: 130px;
+}

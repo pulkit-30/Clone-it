@@ -1,0 +1,28 @@
+.row {
+  z-index: -1;
+  /* background-color: rgb(184, 169, 155); */
+  width: 100% !important;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.poster {
+  margin: 10px 10px;
+}
+.poster img {
+  width: 10rem;
+  height: 15rem;
+  transition: 0.2s;
+  opacity: 0.85;
+}
+.poster img:hover {
+  overflow-y: hidden;
+  transform: scale(1.12);
+  opacity: 1;
+  filter: brightness(1.1);
+}
+h4 {
+  font-size: 20px;
+  padding: 0px 10px;
+}

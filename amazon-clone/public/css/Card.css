@@ -1,0 +1,81 @@
+.Card {
+  position: relative;
+  margin: 9px;
+  width: 17rem;
+  height: 20rem;
+  transition: 0.2s;
+  z-index: 100;
+  background-color: white;
+  padding: 10px;
+  flex-direction: column;
+}
+.Card:hover {
+  transform: scale(1.08);
+}
+.Card img {
+  height: 11rem;
+  width: 12rem;
+}
+.rating {
+  color: rgb(255, 195, 42);
+}
+.title {
+  font-size: 15px;
+}
+.price {
+  text-align: left !important;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 13px;
+}
+.link {
+  text-align: left !important;
+  width: 100%;
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  font-size: 10px;
+}
+.add-cart-btn {
+  font-size: 10px !important;
+  font-weight: bolder !important;
+  position: absolute !important;
+  bottom: 2px;
+  right: 2px;
+  background-color: rgb(255, 183, 0) !important;
+}
+.row {
+  width: 95vw;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 17rem;
+  margin: auto;
+  background-color: white;
+}
+.row-item {
+  flex-wrap: nowrap;
+  margin: 10px 55px;
+  transition: 0.2s;
+}
+.row img {
+  /* width: 10rem; */
+  height: 14rem;
+}
+.row-item:hover {
+  transform: scale(1.08);
+}
+.row::-webkit-scrollbar {
+  display: none;
+}
+.BigCard {
+  margin: 10px;
+  width: 90vw;
+}
+
+.BigCard img {
+  width: 100%;
+}

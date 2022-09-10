@@ -1,0 +1,133 @@
+.header {
+}
+.header__box {
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+}
+.header__box img {
+  width: 5rem;
+}
+.Header__right {
+  justify-content: space-between;
+  width: 10vw;
+}
+.header__left {
+  justify-content: space-between;
+  width: 50vw;
+}
+.Header__bottom {
+  width: 100%;
+  /* height: 10vh; */
+  color: rgba(0, 0, 0, 0.445);
+}
+.navigation {
+  width: 40vw;
+  justify-content: space-evenly;
+  margin-left: 100px;
+}
+.navigation span {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px !important;
+  text-align: center;
+}
+.icon {
+  margin-right: 10px;
+  font-size: 10px !important;
+}
+.active {
+  color: rgb(58, 58, 255);
+  opacity: 1 !important;
+  border-bottom: 2px solid rgb(58, 58, 255);
+  text-decoration: none;
+}
+.Result__body {
+  width: 100%;
+  margin-top: 2rem;
+  margin-left: 7rem;
+  width: 50%;
+  min-height: 100vh;
+}
+.Results__box {
+  margin: 20px auto;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.479);
+}
+.Result__para {
+  padding: 10px 0px;
+  width: 80%;
+  font-size: 15px;
+}
+.Result__body h6 {
+  font-size: 10px;
+  color: rgba(26, 26, 26, 0.548);
+  margin: 10px 0px;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.Result__Image {
+  width: 600px;
+  margin: 10px;
+}
+@media (max-width: 800px) {
+  .header__box img {
+    width: 7rem;
+    margin: 10px 0px;
+  }
+  .Header__right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+  }
+  .navigation {
+    width: 90vw;
+    justify-content: space-evenly;
+    margin-left: 0px;
+  }
+  .Result__body {
+    width: 100vw;
+    margin-top: 2rem;
+    width: 90%;
+    margin: 20px auto;
+    min-height: 100vh;
+  }
+  .Results__box {
+    margin: 20px auto;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.479);
+  }
+  .Result__para {
+    padding: 10px 0px;
+    width: 70%;
+    font-size: 15px;
+  }
+  .Result__body h6 {
+    font-size: 10px;
+    color: rgba(26, 26, 26, 0.548);
+    margin: 10px 0px;
+  }
+  .image {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .Result__Image {
+    height: 50%;
+    width: 80%;
+  }
+} ;

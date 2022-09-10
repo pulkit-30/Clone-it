@@ -1,0 +1,53 @@
+.home {
+  width: 100%;
+  height: 86vh;
+  flex-direction: column !important;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 250px;
+  margin-bottom: 2rem;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 253px;
+  text-align: right;
+  justify-content: space-evenly;
+  font-size: 13px;
+  padding: 10px;
+}
+.header span {
+  margin: 0px 10px;
+}
+.Avatar {
+  width: 30px;
+  height: 30px;
+}
+.home_box {
+  flex-direction: column;
+  width: 90vw;
+  height: 20vh;
+  justify-content: space-evenly;
+  font-size: 10px;
+}
+.btn {
+  color: #3c4043;
+  background-color: #f8f9fa;
+  margin: 10px;
+  border: none;
+  padding: 5px 15px;
+  font-size: 12px;
+  line-height: 24px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.home_box span {
+  color: rgb(0, 0, 201);
+}

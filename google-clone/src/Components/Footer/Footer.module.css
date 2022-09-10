@@ -1,0 +1,28 @@
+.foot {
+  background-color: #f2f2f2;
+  color: #000000;
+  opacity: 54%;
+  font-size: 15px;
+  text-align: start;
+  width: 100%;
+  min-height: 14vh;
+  padding: 5px;
+}
+.foot div {
+  padding-top: 10px;
+  padding-left: 5px;
+  text-align: center;
+  width: fit-content;
+}
+.foot div span {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.foot_bottom {
+  width: 100% !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}

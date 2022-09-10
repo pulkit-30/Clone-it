@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  background-color: rgb(241, 239, 239);
+  overflow-y: hidden;
+  height: 100vh;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  flex-direction: column;
+}
+form input {
+  margin: 2px;
+  height: 20px;
+  padding: 5px;
+  border: 2px solid black;
+  width: 300px;
+  border-radius: 10px;
+}
+.btn-auth {
+  position: absolute !important;
+  right: 5px !important;
+  top: 5px;
+}
+progress {
+  width: 80vw;
+  margin: 0px auto;
+}
+.max-width {
+  width: 80vw;
+}
+.btn {
+  background: none;
+  border: none;
+}
+img {
+  width: 150px;
+}
+.User-main {
+  background-color: rgba(162, 187, 255, 0.616);
+}
+.pos {
+  position: absolute !important;
+  top: 5px;
+  right: 1px !important;
+  z-index: 10;
+  /* margin: 10px; */
+}
+Button {
+  font-size: 13px !important;
+  margin: 0px 2px !important;
+}
+.form {
+  background-color: white;
+  width: fit-content;
+  margin: 10% auto;
+  padding: 30px;
+  z-index: 1;
+  border: 2px solid black;
+}
+.display-message {
+  flex-direction: column;
+
+  background-image: linear-gradient(to right, #ef32d9, #89fffd);
+  height: 100vh;
+  font-size: 30px;
+  padding: 10px 30px;
+  text-align: center;
+  font-family: sans-serif;
+  z-index: -1;
+  transition: 1s !important;
+  animation-name: animateBg;
+  animation-iteration-count: infinite;
+  animation-duration: 15s;
+  animation-timing-function: ease-in-out;
+}
+svg {
+  width: 150px;
+  height: 100px;
+}
+@keyframes animateBg {
+  0% {
+    background-image: linear-gradient(to right, #ef32d9, #89fffd);
+  }
+  30% {
+    background-image: linear-gradient(to right, #ff15e4be, #65fffcd7);
+  }
+  65% {
+    background-image: linear-gradient(to right, #f56ee5d2, #76dad8);
+  }
+  100% {
+    background-image: linear-gradient(to right, #ef32d9, #89fffd);
+  }
+}

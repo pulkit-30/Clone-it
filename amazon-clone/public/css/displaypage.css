@@ -1,0 +1,51 @@
+.DisplayPage {
+  position: relative;
+  margin-top: 100px;
+  background-color: white;
+  min-height: 100vh;
+  text-align: center;
+}
+.DisplayPage .category {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  text-align: left;
+  width: 100%;
+}
+.DisplayPage .title {
+  margin: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+}
+.DisplayPage .detail {
+  margin: 10px;
+  width: 50vw;
+  height: fit-content;
+  font-size: 20px;
+  text-align: left;
+  flex-direction: column;
+}
+.DisplayPage .image img {
+  width: 18rem;
+}
+.DisplayPage .price {
+  margin: 10px;
+  font-size: 30px;
+}
+.box {
+  margin: 10px;
+  justify-content: space-evenly;
+}
+.DisplayPage .row img {
+  width: 10rem;
+}
+.DisplayPage .row {
+  width: 100%;
+}
+.username {
+  flex-direction: column;
+  justify-content: left !important;
+  align-items: flex-start;
+  text-align: left;
+}

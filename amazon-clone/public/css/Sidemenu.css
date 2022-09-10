@@ -1,0 +1,47 @@
+.Sidemenu {
+  position: fixed;
+  top: 30px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.288);
+  height: 100vh;
+  width: 100%;
+  z-index: 1000;
+  overflow-y: hidden;
+  transition: 0.5s;
+  display: none;
+}
+.Sidemenu-menu {
+  position: relative;
+  top: 100px;
+  margin-top: 30px;
+  background-color: white;
+  height: fit-content;
+  width: 80%;
+  flex-direction: column !important;
+  align-items: flex-start;
+}
+.Sidemenu::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 80%;
+  background-color: white;
+  height: 100%;
+  z-index: -1;
+}
+.Sidemenu-menu Button {
+  border-radius: 0 !important;
+  padding: 15px;
+  font-size: 18px;
+  width: 80vw !important;
+  color: black !important;
+}
+.cancel {
+  font-weight: lighter;
+  position: absolute;
+  top: 90px;
+  right: 20px;
+  font-size: 30px;
+  color: white;
+}

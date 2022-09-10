@@ -1,0 +1,28 @@
+.Cart {
+  padding-top: 80px;
+}
+.cart-card {
+  position: relative;
+  padding: 10px;
+  justify-content: space-evenly;
+  background-color: white;
+}
+.Cart .title {
+  font-size: 30px;
+}
+.Cart img {
+  width: 15rem;
+}
+.Cart .detail {
+  width: 50vw;
+  flex-direction: column !important;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+.cart-card .link {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  float: right;
+}

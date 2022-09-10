@@ -1,0 +1,95 @@
+@media (max-width: 970px) {
+  .fade-box {
+    display: none;
+  }
+  .item-count {
+    top: 0px;
+  }
+  .banner {
+    top: 8vh !important;
+  }
+  .main {
+    top: 90px;
+  }
+  .navbar input {
+    width: 25vw;
+  }
+}
+@media (max-width: 700px) {
+  .Sidemenu {
+    display: flex;
+  }
+  .banner {
+    top: 100px !important;
+    margin: 10px 0px;
+  }
+
+  .navbar .logo {
+    position: relative;
+    left: 30px;
+  }
+  .navbar input {
+    width: 40vw;
+  }
+  .flag {
+    display: none;
+  }
+  .log {
+    display: none;
+  }
+  .navbar form {
+    position: relative;
+    top: 3px;
+    width: 100%;
+  }
+  .navbar input {
+    width: 80%;
+  }
+  .cart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .display-toggle {
+    display: block;
+    color: white !important;
+  }
+  .navbar Button {
+    color: white !important;
+  }
+  .navbar .signIn {
+    position: absolute !important;
+    top: 4px;
+    right: 20vw;
+  }
+  .hamburger {
+    width: fit-content !important;
+    position: absolute;
+    top: 15px;
+  }
+
+  .Card {
+    width: 11rem;
+    min-height: 24rem;
+    flex-direction: column !important;
+  }
+
+  .Card img {
+    width: 9rem;
+    height: 12rem;
+  }
+  .row {
+    width: 100vw;
+  }
+  .DisplayPage .detail {
+    width: 100vw;
+  }
+  .Cart {
+    padding-top: 130px;
+    height: auto;
+  }
+
+  .Cart .detail {
+    width: 100vw;
+  }
+}

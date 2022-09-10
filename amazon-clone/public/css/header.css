@@ -1,0 +1,66 @@
+.navbar {
+  width: 100%;
+  background-color: #131921;
+  position: fixed !important;
+  color: white;
+  top: 0 !important;
+  z-index: 1000;
+  font-size: 10px;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+
+  top: 0;
+}
+.navbar div {
+  color: white;
+  margin: auto;
+  border: 1px solid transparent;
+  padding: 5px 1px;
+  width: auto;
+  height: 45px;
+  cursor: pointer;
+}
+.logo img {
+  margin-top: 10px;
+  width: 80px;
+  height: 25px;
+  filter: brightness(1);
+}
+.navbar input {
+  padding: 0px 2px;
+  border: none !important;
+  width: 45vw;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 30px;
+}
+.navbar .btn {
+  color: black !important;
+  padding:3px 5px;
+  border: none !important;
+  position: relative !important;
+  right: 19px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  top: 0;
+  background-color: #ffc074;
+}
+.navbar .flag {
+  margin-left: 20px;
+  width: 40px;
+  background-image: url(../indian-flag.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar div:hover {
+  border: 1px solid white;
+}
+.display-toggle {
+  display: none;
+}
+.item-count {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

@@ -1,0 +1,64 @@
+.container {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin: auto;
+  margin-top: 50px;
+  height: 80vh;
+  overflow-y: auto;
+}
+.left {
+  font-weight: bold;
+  background-color: #e4e4e45d;
+  border-radius: 10px;
+  padding: 10px;
+  width: fit-content;
+  margin: 5px 0px;
+  margin-left: 10px;
+  margin-right: auto;
+  max-width: 50vw;
+}
+.right {
+  font-weight: bold;
+  background-color: #0080ca63;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 0px;
+  max-width: 50vw;
+  width: fit-content;
+  margin-right: 10px;
+  margin-left: auto;
+}
+.username {
+  font-size: 10px;
+  opacity: 0.55;
+}
+.greet {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+  background-color: rgba(206, 206, 206, 0.13);
+  border-radius: 20px;
+}
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

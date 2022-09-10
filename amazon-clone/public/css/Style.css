@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(233, 233, 233, 0.781) !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+h1 {
+  margin: 100px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.bold {
+  font-weight: bolder !important;
+  font-size: 12px;
+}
+.banner {
+  position: relative;
+  top: 65px;
+}
+.fade-box {
+  position: absolute;
+  bottom: 0;
+  height: 30vh;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgb(233, 233, 233) 70%
+  );
+  width: 100vw;
+}
+.main {
+  position: relative;
+  margin: auto !important;
+  top: -20vh;
+}
+.card {
+  margin: 10px;
+  z-index: 100;
+}
+.btn {
+  display: flex;
+  font-size: 10px !important;
+  font-weight: bolder !important;
+  background-color: rgb(255, 183, 0) !important;
+  margin: 10px !important;
+}
+.back_to_amazon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.price-card {
+  background-color: #131921;
+  color: white;
+  /* width: 80vw; */
+  padding: 20px;
+  margin: auto;
+}

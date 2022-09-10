@@ -1,0 +1,16 @@
+header {
+  position: fixed;
+  top: 0;
+  background-color: #016aa7;
+  height: 50px;
+  width: 100%;
+  color: white;
+  justify-content: space-between !important;
+}
+.logo {
+  margin: 0px 20px;
+  font-size: 30px;
+}
+.fa-ellipsis-v {
+  padding-right: 10px;
+}

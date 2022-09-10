@@ -1,0 +1,8 @@
+.Uploader {
+  width: 100%;
+  /* margin: 10px auto; */
+  height: 95vh;
+  background-color: white;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

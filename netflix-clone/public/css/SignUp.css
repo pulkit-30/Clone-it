@@ -1,0 +1,21 @@
+.signUp-background {
+  background-color: rgba(0, 0, 0, 0.336);
+  padding: 20px;
+  flex-direction: column;
+}
+.signUp-input {
+  background-color: rgba(143, 142, 142, 0.884) !important;
+  color: white !important;
+  width: 50vw !important;
+  border-radius: 10px !important;
+  margin: 10px 0px !important;
+}
+@media (max-width: 600px) {
+  .signUp-input {
+    background-color: rgba(143, 142, 142, 0.884) !important;
+    color: white !important;
+    width: 85vw !important;
+    border-radius: 10px !important;
+    margin: 10px 0px !important;
+  }
+}

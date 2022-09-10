@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:wght@100&display=swap");
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  height: 40px;
+  position: relative;
+  box-shadow: 0px 0px 1px rgb(31, 30, 30);
+  justify-content: space-evenly !important;
+  padding: 10px 0px 0px 0px;
+  z-index: 10;
+}
+.logo {
+  font-family: "Marck Script", cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+.search {
+  position: relative;
+  left: 10vw;
+}
+.navigation {
+  position: relative;
+  left: 10vw;
+  font-size: 20px;
+  font-weight: lighter;
+  width: 200px;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  header {
+    height: 40px;
+  }
+
+  .search {
+    display: none;
+  }
+  .navigation {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+.Log {
+  flex-direction: column !important;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+.Log input {
+  width: 100%;
+}
+.Log img {
+  position: relative;
+  bottom: 30px;
+  width: 200px;
+  height: 150px;
+  padding: 0;
+}
+.Log form {
+  min-width: 30vw;
+  background-color: white;
+  padding: 40px;
+  border: 1px solid black;
+  flex-direction: column !important;
+  justify-content: left;
+  align-items: flex-start;
+}
+.Log Button {
+  right: 10px !important;
+  width: 100% !important;
+}
+.username {
+  width: 100%;
+}

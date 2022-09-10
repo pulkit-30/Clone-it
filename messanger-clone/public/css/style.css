@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  overflow: auto;
+  background-color: rgb(243, 242, 242);
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+i {
+  margin: 2px;
+}
